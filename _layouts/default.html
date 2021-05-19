@@ -58,7 +58,7 @@
 
 	.topnav {
 	  overflow: hidden;
-	  background-color: black;
+	  /* background-color: black; */
 	}
 
 	.topnav a {
@@ -89,8 +89,8 @@
     </style>
   </head>
   <body>
-    <div class="topnav">
-	  <a class="active" href="#home">Home</a>
+    <div class="topnav nav-color">
+	  <a class="active" href="{{site.baseurl}}/">Home</a>
 	  <a href="#news">Blogs</a>
 	  <a href="#contact">Projects</a>
 	  <a href="#news">Research Interest</a>
@@ -98,14 +98,15 @@
 	  <a href="#news">Contact</a>
 	  <a href="#contact">Resume</a>
 	  <div class="topnav-right">
-	    <a href="#search" class="circle fa fa-facebook"></a>
-	    <a href="#about" class="circle fa fa-linkedin"></a>
-	    <a href="#about" class="circle fa fa-twitter"></a>
-	    <a href="#about" class="circle fa fa-instagram"></a>
-	    <a href="#about" class="circle fa fa-envelope"></a>
+	    <a href="https://www.facebook.com/rishabh.sanjay" class="circle fa fa-facebook"></a>
+	    <a href="https://www.linkedin.com/in/rishabh-sanjay-13b718152/" class="circle fa fa-linkedin"></a>
+	    <a href="https://twitter.com/SanjayRishabh" class="circle fa fa-twitter"></a>
+	    <a href="https://www.instagram.com/rishabh.sanjay/" class="circle fa fa-instagram"></a>
+	    <a href="mailto:rishabh.lfs@gmail.com" class="circle fa fa-envelope"></a>
 	  </div>
     </div>
     <section class="page-header">
+      <img src="{{site.baseurl}}/assets/images/dp3.jpeg" class="circle" alt="Avatar" width="150" height="150">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
