@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+permalink: 
 ---
 
 
@@ -10,32 +12,6 @@ Hi there, I am a fourth year undergraduate pursuing a major in **Maths and Scien
 In the past I have worked on a project `Case Judgement Prediction for Supreme Court Cases`in the field of **Legal AI** under [Prof. Ashutosh Modi](https://ashutosh-modi.github.io/). Currently I am working on a project  `Prior Case Retrieval` under him.  I am also working on a project with an open source organization [ArviZ](https://github.com/arviz-devs/arviz) as part of [GSoC'21](https://summerofcode.withgoogle.com/). Apart from these I am also trying to extend my deep learning knowledge and not just restrict it to `NLP`. 
 
 In my spare time, I like solving puzzles, binging anime and playing multi-player games with my friends. Some of my favourite anime of mine are FMAB, Attack on Titan, One Piece. I also love playing cricket and table tennis. In my free time I also love participating in competitive programming competiitions. 
-
-## Research Interests 
-
-- Machine Learning
-- Natural Language Processing
-- Deep Learning
-- Legal AI
-- Bayesian Analysis
-
-## Blogs
-
-Coming Soon
-
-## Projects
-
-Will Update
-
-## Publications
-
-Almost there
-
-## Contact 
-
-
-
-## Resume
 
 
 

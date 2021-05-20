@@ -8,95 +8,26 @@
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-	body {
-	  margin: 0;
-	  font-family: Arial, Helvetica, sans-serif;
-	}
-	
-	.fa {
-	  padding: 20px;
-	  font-size: 30px;
-	  width: 40px;
-	  text-align: center;
-	  text-decoration: none;
-	  margin: 5px 2px;
-	}
-
-	.fa:hover {
-	    opacity: 0.7;
-	}
-
-	.fa-facebook {
-	  background: black;
-	  color: white;
-	}
-
-	.fa-twitter {
-	  background: black;
-	  color: white;
-	}
-
-
-	.fa-linkedin {
-	  background: black;
-	  color: white;
-	}
-
-
-	.fa-instagram {
-	  background: black;
-	  color: white;
-	}
-	
-	.fa-envelope {
-	  background: black;
-	  color: white;
-	}
-	
-	
-
-	.topnav {
-	  overflow: hidden;
-	  /* background-color: black; */
-	}
-
-	.topnav a {
-	  float: left;
-	  color: #f2f2f2;
-	  text-align: center;
-	  padding: 12px 14px;
-	  text-decoration: none;
-	  font-size: 15px;
-	}
-
-	.topnav a:hover {
-	  background-color: #ddd;
-	  color: black;
-	}
-
-	.topnav a.active {
-	  background-color: #04AA6D;
-	  color: white;
-	}
-
-	.topnav-right {
-	  float: right;
-	}
-	.circle {
-	  border-radius: 50%;
-	}
-    </style>
+	<link rel="stylesheet" href="{{ '/assets/css/template.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <div class="topnav nav-color">
 	  <a class="active" href="{{site.baseurl}}/">Home</a>
-	  <a href="#news">Blogs</a>
-	  <a href="#contact">Projects</a>
-	  <a href="#news">Research Interest</a>
-	  <a href="#contact">Publications</a>
-	  <a href="#news">Contact</a>
-	  <a href="#contact">Resume</a>
+	  <a href="{{site.baseurl}}/blogs/">Blogs</a>
+	  <a href="{{site.baseurl}}/research-interest/">Research Interest</a>
+	  <a href="{{site.baseurl}}/publications/">Publications</a>
+	  <a href="{{site.baseurl}}/project/">Projects</a>
+	  <a href="{{site.baseurl}}/contact/">Contact</a>
+	  <a href="{{site.baseurl}}/">Resume</a>
+	  <!-- {%- for page in site.pages -%}
+		{%- if page.title != "Home" -%}
+			{%- if page.title == "Resume" -%}
+				<a href="{{site.baseurl}}/">{{page.title}}</a>
+			{%- else -%}
+	  			<a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+			{%- endif -%}
+		{%- endif -%}
+	  {%- endfor -%} -->
 	  <div class="topnav-right">
 	    <a href="https://www.facebook.com/rishabh.sanjay" class="circle fa fa-facebook"></a>
 	    <a href="https://www.linkedin.com/in/rishabh-sanjay-13b718152/" class="circle fa fa-linkedin"></a>
