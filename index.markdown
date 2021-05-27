@@ -5,7 +5,7 @@ permalink:
 ---
 
 
-## About Me
+<h1 style="font-size: 50px">About Me</h1>
 
 Hi there, I am a fourth year undergraduate pursuing a major in **Maths and Scientific Computing** at the **Indian Institute of Technology, Kanpur**. I am intereseted in the field of **Machine Learning**, **Deep Learning** and **Natural Language Processing**. Deep nets drive me crazy. I was always fascinated by their sophisticated structure and loved how they are used to attain `SOTA` results for so many real world problems. 
 
