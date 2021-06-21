@@ -28,3 +28,9 @@ a.one:hover {
         <a class='one' style="font-size: 25px" href="{{site.baseurl}}/_posts/first-blog/">My First Blog</a>
     </li>
 </ul>
+
+<ul>
+    <li>
+        <a class='one' style="font-size: 25px" href="https://rishabh-lfs.medium.com/implementing-dot-plots-in-matplotlib-36aa8a2e526d">GSoC'21 Week 1-2</a>
+    </li>
+</ul>
